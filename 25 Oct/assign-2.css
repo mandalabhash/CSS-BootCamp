@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.profile-card {
+    margin: 20px auto;
+    border: 1px solid gray;
+    border-radius: 20px;
+    height: 400px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-card-row1 {
+    padding: 40px;
+    height: calc(80%);
+    border-bottom: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+h1 {
+    font-size: xx-large;
+    font-weight: lighter;
+    margin: 0;
+}
+
+p {
+    font-size: large;
+    font-weight: lighter;
+}
+
+.profile-avatars img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50px;
+    border: 0.2px solid gray;
+    object-fit: cover;
+    margin: 20px;
+    margin-bottom: 5px;
+}
+
+.profile-avatars img:hover {
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: ease-in-out 0.2s;
+}
+
+.profile-card-row2 {
+    height: calc(10%);
+    padding: 20px 40px;
+    display: flex;
+    align-items: center;
+}
+
+a {
+    font-size: larger;
+    text-decoration: none;
+}
